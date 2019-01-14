@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MyForm</title>
+    <link rel="stylesheet"
+          href="./css/main.css">
+    <link rel="stylesheet"
+          href="./css/reset.css">
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+        <header class="header">
+                <div class="header__container">
+                    <div class="header__left">
+                     <img class="logo" src="./images/logo.png" alt="">
+                    </div>
+                    <div class="header__right">
+                      <nav class="header__nav">
+                        <a class="header__nav-link" href="index.html">Главная</a>
+                        <a class="header__nav-link" href="#">Фотографии</a>
+                        <a class="header__nav-link" href="form.html">Конкурс</a>
+                      </nav>
+                      <div class="header__burger">
+                          <div></div>
+                          <div></div>
+                          <div></div> 
+                      </div>
+                    </div>
+                </div>
+            </header>
+            <section class="intro intro-form">
+                <h1 class="intro-form__title">Конкурс на самое безбашенное путишествие с Пинк</h1>
+            </section>
+
+            <section class="form-main">
+                <div class="container form-main__container">
+                    <div class="form-main__inner">
+                <h1 class="form-main__title">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! Пожалуйста, заполните форму ниже:</h1>
+                <form class="form">
+                    <div class="form__name">
+                        <div class="form__name-left">
+                         <p class="form__name-el">
+                             <label class="form__name-title" for="second_name">Фамилия:</label>
+                          <input class="input-text" type="text" name="second" id="second_name" placeholder="Укажите фамилию *">
+                        </p>
+                        <p class="form__name-el "> 
+                            <label class="form__name-title" for="first_name">Имя:</label>
+                            <input class="input-text" type="text" name="first" id="first_name" placeholder="Введите ваше имя *">
+                        </p>
+                        <p class="form__name-el">
+                            <label class="form__name-title" for="third_name">Отчество:</label>
+                            <input class="input-text" type="text" name="third_name" id="third_name" placeholder="Ну и отчество тоже">
+                        </p>
+                        </div>
+                        
+                          <fieldset class="form__name-right">
+                          <legend class="field-title">С каким приложением путешествовали?</legend>
+                          <div class="field">
+                         <label class="field__el" for="ios"><input class="input-radio" type="radio" name="radio" id="ios">Pink для iOS</label>
+                         <label class="field__el" for="android"><input class="input-radio" type="radio" name="radio" id="android">Pink на Android</label>
+                         <label class="field__el" for="windows"><input class="input-radio" type="radio" name="radio" id="windows">Windows Phone</label>
+                        </div>
+                        </fieldset>
+                       
+                    </div> 
+                    <fieldset class="form__contact">
+                       <legend class="field-title">Контактная информация</legend>
+                       <div class="form__contact-inner">
+                        <div class="form__contact-element">
+                            <div class="input-box">
+                          <input class="form__contact-input-text" type="text" id="number__phone" placeholder="Номер, пожалуйста">
+                          <button class="form__contact-btn">
+                                <svg class="form__contact-img" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+width="557.212px" height="557.211px" viewBox="0 0 557.212 557.211" style="enable-background:new 0 0 557.212 557.211;"
+xml:space="preserve">
+<path d="M53.566,177.725h75.576c15.961,0,28.911-12.948,28.911-28.927c0-11.55,9.351-20.902,20.9-20.902h199.346
+           c11.53,0,20.884,9.352,20.884,20.902c0,15.979,12.948,28.927,28.926,28.927h75.56c15.979,0,28.93-12.948,28.93-28.927V92.524
+           c0-45.235-36.665-81.897-81.896-81.897H106.533c-45.233,0-81.896,36.663-81.896,81.897v56.273
+           C24.639,164.776,37.587,177.725,53.566,177.725z"/>
+       <path d="M554.965,471.605l-36.754-129.198c-16.779-58.999-67.894-100.637-127.876-106.847v-34.3
+           c0-21.753-17.632-39.389-39.386-39.389c-21.773,0-39.403,17.636-39.403,39.389v33.05h-65.881v-33.033
+           c0-21.752-17.63-39.386-39.384-39.386c-21.756,0-39.388,17.634-39.388,39.386v34.284
+           c-59.999,6.191-111.115,47.848-127.892,106.847L2.248,471.605c-5.049,17.74-1.491,36.846,9.643,51.591
+           c11.13,14.727,28.523,23.389,46.973,23.389h439.479c18.45,0,35.845-8.662,46.979-23.389
+           C556.452,508.45,560.013,489.345,554.965,471.605z M263.807,472.386c0,5.629-4.555,10.187-10.186,10.187H201.45
+           c-5.628,0-10.188-4.558-10.188-10.187v-52.169c0-5.63,4.56-10.186,10.188-10.186h52.171c5.63,0,10.186,4.556,10.186,10.186
+           V472.386z M263.807,370.189c0,5.629-4.555,10.187-10.186,10.187H201.47c-5.63,0-10.188-4.558-10.188-10.187v-52.15
+           c0-5.63,4.557-10.188,10.188-10.188h52.151c5.63,0,10.186,4.559,10.186,10.188V370.189z M365.968,472.368
+           c0,5.629-4.558,10.186-10.187,10.186h-52.154c-5.628,0-10.186-4.557-10.186-10.186v-52.134c0-5.631,4.558-10.188,10.186-10.188
+           h52.154c5.629,0,10.187,4.558,10.187,10.188V472.368z M365.968,370.189c0,5.629-4.558,10.187-10.187,10.187h-52.135
+           c-5.631,0-10.188-4.558-10.188-10.187v-52.135c0-5.63,4.557-10.188,10.188-10.188h52.135c5.629,0,10.187,4.558,10.187,10.188
+           V370.189z"/>
+                                    </svg>
+
+                          </button>
+                        </div>
+                          <label class="form__contact-title" for="number__phone">Номер Телефона</label>
+                        </div>
+                        
+                        <div class="form__contact-element">
+                            <div class="input-box">
+                        <input class="form__contact-input-text" type="text" id="email__address" placeholder="Введите почту *">
+                        <button class="form__contact-btn">
+                                <svg class="form__contact-img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27.857 27.857"><path d="M2.203 5.331l10.034 7.948c.455.36 1.082.52 1.691.49.608.03 1.235-.129 1.69-.49l10.034-7.948c.804-.633.622-1.152-.398-1.152H2.604c-1.021 0-1.203.519-.401 1.152z"/><path d="M26.377 7.428l-10.965 8.325c-.41.308-.947.458-1.482.451-.536.007-1.073-.144-1.483-.451L1.48 7.428C.666 6.811 0 7.142 0 8.163v13.659c0 1.021.836 1.857 1.857 1.857H26a1.863 1.863 0 0 0 1.857-1.857V8.163c0-1.021-.666-1.352-1.48-.735z"/></g></svg>
+                        </button>
+                        </div>
+                        <label class="form__contact-title" for="email__address">Адрес Почты</label>
+                        </div>
+                        
+                    </div>
+                    </fieldset> 
+                    <fieldset class="action">
+                        <legend class="field-title">Ваши безбашенные достижения в путешествии</legend>
+                        <div class="action__inner">
+                            <div class="action__element">
+                              <input class="action__check" type="checkbox" name="self" id="self">
+                              <label class="action__txt" for="self">Сделал селфи с акулой</label>
+                            </div>
+                            <div class="action__element">
+                                    <input class="action__check" type="checkbox" name="beach" id="beach">
+                                    <label class="action__txt" for="beach">Сделал селфи с акулой</label>
+                            </div>
+                            <div class="action__element">
+                                    <input class="action__check"  type="checkbox" name="norris" id="norris">
+                                    <label class="action__txt" for="norris">Сделал селфи с акулой</label>
+                            </div>
+                            <div class="action__element">
+                                    <input class="action__check" type="checkbox" name="present" id="present">
+                                    <label class="action__txt" for="present">Сделал селфи с акулой</label>
+                            </div>
+                            <div class="action__element">
+                                    <input class="action__check" type="checkbox" name="tower" id="tower">
+                                    <label class="action__txt" for="tower">Сделал селфи с акулой</label>
+                            </div>
+                            <div class="action__element">
+                                    <input class="action__check" type="checkbox" name="hotel" id="hotel">
+                                    <label class="action__txt" for="hotel">Сделал селфи с акулой</label>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="emotions">
+                        <legend class="field-title">Опишите свои эмоции</legend>
+                        <div class="emotions__inner">
+                            <textarea class="emotions__area" name="emotions" id="emotions" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+                        </div>
+                    </fieldset>
+                    <div class="down">
+                        <button class="down__btn">Отправить форму</button>
+                        <p class="down__subtitle"><span class="color">*</span> — обязательные для заполнения поля</p>
+                    </div>
+                </form>
+            </div>
+            </div>
+            </section>
+
+            <footer class="footer">
+                    <div class="footer__container">
+                           <div class="footer__left">
+                                   <img class="logo" src="./images/footer-logo.png" alt=""> 
+                           </div>
+                           <div class="footer__center">
+                            <a class="social" href="#"><svg class="social__icons" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                               width="449.956px" height="449.956px" viewBox="0 0 449.956 449.956" style="enable-background:new 0 0 449.956 449.956;"
+                               xml:space="preserve">
+                          <g>
+                              <path d="M449.956,85.657c-17.702,7.614-35.408,12.369-53.102,14.279c19.985-11.991,33.503-28.931,40.546-50.819
+                                  c-18.281,10.847-37.787,18.268-58.532,22.267c-18.274-19.414-40.73-29.125-67.383-29.125c-25.502,0-47.246,8.992-65.24,26.98
+                                  c-17.984,17.987-26.977,39.731-26.977,65.235c0,6.851,0.76,13.896,2.284,21.128c-37.688-1.903-73.042-11.372-106.068-28.407
+                                  C82.46,110.158,54.433,87.46,31.403,59.101c-8.375,14.272-12.564,29.787-12.564,46.536c0,15.798,3.711,30.456,11.138,43.97
+                                  c7.422,13.512,17.417,24.455,29.98,32.831c-14.849-0.572-28.743-4.475-41.684-11.708v1.142c0,22.271,6.995,41.824,20.983,58.674
+                                  c13.99,16.848,31.645,27.453,52.961,31.833c-7.995,2.091-16.086,3.138-24.269,3.138c-5.33,0-11.136-0.475-17.416-1.42
+                                  c5.9,18.459,16.75,33.633,32.546,45.535c15.799,11.896,33.691,18.028,53.677,18.418c-33.498,26.262-71.66,39.393-114.486,39.393
+                                  c-8.186,0-15.607-0.373-22.27-1.139c42.827,27.596,90.03,41.394,141.612,41.394c32.738,0,63.478-5.181,92.21-15.557
+                                  c28.746-10.369,53.297-24.267,73.665-41.686c20.362-17.415,37.925-37.448,52.674-60.097c14.75-22.651,25.738-46.298,32.977-70.946
+                                  c7.23-24.653,10.848-49.344,10.848-74.092c0-5.33-0.096-9.325-0.287-11.991C421.785,120.202,437.202,104.306,449.956,85.657z"/></svg></a>
+                                  <a class="social" href="https://www.facebook.com/"><svg class="social__icons" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                               width="512px" height="512px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                          <g>
+                              <path d="M296.296,512H200.36V256h-64v-88.225l64-0.029l-0.104-51.976C200.256,43.794,219.773,0,304.556,0h70.588v88.242h-44.115
+                                  c-33.016,0-34.604,12.328-34.604,35.342l-0.131,44.162h79.346l-9.354,88.225L296.36,256L296.296,512z"/></svg></a>
+                                  <a class="social" href="#"><svg class="social__icons" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                               width="373.008px" height="373.008px" viewBox="0 0 373.008 373.008" style="enable-background:new 0 0 373.008 373.008;"
+                               xml:space="preserve">
+                          <g>
+                              <g id="Layer_8_16_">
+                                  <path d="M61.792,2.588C64.771,0.864,68.105,0,71.444,0c3.33,0,6.663,0.864,9.655,2.588l230.116,167.2
+                                      c5.963,3.445,9.656,9.823,9.656,16.719c0,6.895-3.683,13.272-9.656,16.713L81.099,370.427c-5.972,3.441-13.334,3.441-19.302,0
+                                      c-5.973-3.453-9.66-9.833-9.66-16.724V19.305C52.137,12.413,55.818,6.036,61.792,2.588z"/></svg></a>
+                           </div>
+                           <div class="footer__right">
+                           <p>© 2019 Shevchenko</p>
+                           </div>   
+                    </div>
+                </footer>
+               
+                <script src="./js/main.bundle.js"></script>
+
+    
+</body>
+</html>
